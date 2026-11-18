@@ -13,3 +13,7 @@ cargo build
 ## Status
 
 This is an unfinished, game-build-specific research project. The process interface and data layouts depend on external driver and game versions; it is not a general-purpose overlay or released application.
+
+## Defensive analysis
+
+See [DEFENSIVE_ANALYSIS.md](DEFENSIVE_ANALYSIS.md) for defensive considerations around game-state exposure and driver interfaces. The note does not claim to test the target game's anti-cheat.
